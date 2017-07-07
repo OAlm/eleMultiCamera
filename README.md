@@ -1,9 +1,18 @@
 # Electron stream viewer
+
+## Description
+
+Electron-based desktop application for monitoring multiple incoming wowza video streams.
+This is basically a client to view any rtsp wowza video streams in form of 2x2, 3x3 and 4x4 screens.
+
 ## Installation
  
- `$ git clone git@gitlab.mw.metropolia.fi:sohjoa/elemulticamera.git`  
+ `$ git clone git@github.com:OAlm/eleMultiCamera.git`  
+
   In the project directory  
+
  `$ npm install`  
+
   Create wowza.json with default configuration. (The default configuration can be removed, if so code needs to be 
   altered in the main.js file). This would mean that user has to enter everything and if option save login details is 
   selected (in the application), then the config is saved in the user data (separate from json).
@@ -11,6 +20,7 @@
  Current setup is for windows x64 systems.  
  Note that for different platform the wcjs-prebuilt settings need to be adjusted in package json file.  
  Not all of the electron versions are compatible with wcjs. For full details:  
+ 
 - https://github.com/Ivshti/wcjs-prebuilt
 - https://github.com/RSATom/WebChimera.js/releases
 
@@ -18,11 +28,9 @@ Current setup:
 wcjs - 0.2.7  
 electron - 1.4.3  
 
-## Description
-Electron (Nodejs) desktop application for viewing wowza video streams. 
-This is basically a client to view any rtsp wowza video streams in form of 2x2, 3x3 and 4x4 screens.
 
 ## Improvements
+
 - Remove player automatically as the rtsp end shuts down.
 - Password is not stored. If password management is to be implemented, OS specific method should be investigated.
 - Application is not able to present rtp video stream which originates from gstreamer application. 
