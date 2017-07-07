@@ -9,8 +9,8 @@
     "run-script": "./clean.cmd",
     "rebuild": "electron-rebuild -f -w wcjs-gs"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Nikita Korhonen",
+  "license": "MIT",
   "dependencies": {
     "babel-preset-react": "^6.24.1",
     "electron": "1.4.3",
