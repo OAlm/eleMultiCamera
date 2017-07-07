@@ -2,8 +2,8 @@
 
 ## Description
 
-Electron-based desktop application for monitoring multiple incoming wowza video streams.
-This is basically a client to view any rtsp wowza video streams in form of 2x2, 3x3 and 4x4 screens.
+Electron-based desktop application for monitoring multiple incoming RTSP video streams.
+This is a client to view any RTSP (Wowza) video streams in form of 2x2, 3x3 and 4x4 screens.
 
 ## Installation
  
